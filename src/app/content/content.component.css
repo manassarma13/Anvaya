@@ -1,0 +1,10 @@
+.cards  {
+float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.card::after {
+  content: "";
+  clear: both;
+  display: table;
+}
